@@ -3,8 +3,11 @@ a {
     @apply text-teal;
 }
 .top-nav-item {
-    @apply text-grey-darker text-sm font-semibold pb-6 border-b-2 border-solid border-transparent;
+    @apply mr-2 text-grey-darker text-sm font-semibold pb-6 border-b-2 border-solid border-transparent;
     &:hover {
         @apply  text-teal border-teal;
     }
+}
+.hero {
+    background: url('/img/tailwind_bg.jpg');
 }

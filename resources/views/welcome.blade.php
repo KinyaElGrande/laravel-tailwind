@@ -28,13 +28,76 @@
                     <span class="flex items-centre absolute inset-y-0 right-0  mr-3"><i class="fa fa-search text-grey"></i></span>
                 </div>
                 <div class="mr-4">
-                    <a href=""><img src="/img/avataaars.png" alt="" class="h-8 w-8 rounded-full"></a>
+                    <a href=""><img src="/img/kinya.png" alt="" class="h-8 w-8 rounded-full"></a>
                 </div>
                 <div>
                     <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Tweet</button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="hero h-64 bg-cover h-112"></div>
+
+    <div class="bg-white shadow">
+        <div class="container mx-auto flex items-center relative">
+            <div class="w-1/4 ">
+                <img src="/img/avataaars.png" alt="" class="rounded-full h-48 w-48 absolute left-0 top-0 -mt-24 ml-32">
+            </div>
+            <div class="w-1/2">
+                <ul class="list-reset flex">
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid border-teal">
+                    <a href="" class="text-grey-darker hover:no-underline">
+                        <div class="text-sm font-bold letterSpacing-tight mb-1">Tweets</div>
+                        <div class="text-lg letterSpacing-tight font-bold text-teal">60</div>
+                    </a>
+                    </li>
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <a href="" class="text-grey-darker hover:no-underline">
+                        <div class="text-sm font-bold letterSpacing-tight mb-1">Following</div>
+                        <div class="text-lg letterSpacing-tight font-bold hover:text-teal">5</div>
+                    </a>
+                    </li>
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <a href="" class="text-grey-darker hover:no-underline">
+                        <div class="text-sm font-bold letterSpacing-tight mb-1">Followers</div>
+                        <div class="text-lg letterSpacing-tight font-bold hover:text-teal">3200</div>
+                    </a>
+                    </li>
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <a href="" class="text-grey-darker hover:no-underline">
+                        <div class="text-sm font-bold letterSpacing-tight mb-1">Likes</div>
+                        <div class="text-lg letterSpacing-tight font-bold hover:text-teal">130</div>
+                    </a>
+                    </li>
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <a href="" class="text-grey-darker hover:no-underline">
+                        <div class="text-sm font-bold letterSpacing-tight mb-1">Moments</div>
+                        <div class="text-lg letterSpacing-tight font-bold hover:text-teal">65</div>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-1/4 flex justify-end items-center">
+                <div class="mr-6">
+                    <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Following</button>
+                </div>
+                <div>
+                    <a href="" class="text-grey-dark"><i class="fa fa-ellipsis-v fa-lg"></i></a>
+                </div>
+            
+            </div>
+        </div> <!--end container -->
+    </div>
+
+    <div class="container mx-auto flex mt-3">
+        <div class="w-1/4 pr-6 mt-8 mb-4">
+            <h1><a href="">Wagithomo</a></h1>
+            <div>@joe_wagithomo</div>
+        </div>
+        <div class="w-1/2"></div>
+        <div class="w-1/4"></div>
+
     </div>
     
 </body>
