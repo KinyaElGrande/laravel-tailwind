@@ -1,3 +1,10 @@
-.component {
-    @apply bg-blue text-red;
+a {
+    text-decoration: none #{!important};
+    @apply text-teal;
+}
+.top-nav-item {
+    @apply text-grey-darker text-sm font-semibold pb-6 border-b-2 border-solid border-transparent;
+    &:hover {
+        @apply  text-teal border-teal;
+    }
 }
