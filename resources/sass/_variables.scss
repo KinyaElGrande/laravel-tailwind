@@ -1,6 +1,9 @@
 a {
     text-decoration: none #{!important};
     @apply text-teal;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 .top-nav-item {
     @apply mr-2 text-grey-darker text-sm font-semibold pb-6 border-b-2 border-solid border-transparent;

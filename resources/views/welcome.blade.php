@@ -52,25 +52,25 @@
                         <div class="text-lg letterSpacing-tight font-bold text-teal">60</div>
                     </a>
                     </li>
-                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
                     <a href="" class="text-grey-darker hover:no-underline">
                         <div class="text-sm font-bold letterSpacing-tight mb-1">Following</div>
                         <div class="text-lg letterSpacing-tight font-bold hover:text-teal">5</div>
                     </a>
                     </li>
-                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
                     <a href="" class="text-grey-darker hover:no-underline">
                         <div class="text-sm font-bold letterSpacing-tight mb-1">Followers</div>
                         <div class="text-lg letterSpacing-tight font-bold hover:text-teal">3200</div>
                     </a>
                     </li>
-                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
                     <a href="" class="text-grey-darker hover:no-underline">
                         <div class="text-sm font-bold letterSpacing-tight mb-1">Likes</div>
                         <div class="text-lg letterSpacing-tight font-bold hover:text-teal">130</div>
                     </a>
                     </li>
-                    <li class = "text-center py-3 px-4 border-b-2 border-solid">
+                    <li class = "text-center py-3 px-4 border-b-2 border-solid hover:border-teal">
                     <a href="" class="text-grey-darker hover:no-underline">
                         <div class="text-sm font-bold letterSpacing-tight mb-1">Moments</div>
                         <div class="text-lg letterSpacing-tight font-bold hover:text-teal">65</div>
@@ -90,12 +90,90 @@
         </div> <!--end container -->
     </div>
 
-    <div class="container mx-auto flex mt-3">
+    <div class="container mx-auto flex mt-3 text-sm">
         <div class="w-1/4 pr-6 mt-8 mb-4">
-            <h1><a href="">Wagithomo</a></h1>
-            <div>@joe_wagithomo</div>
+            <h1><a href="" class="text-black text-2xl font-bold">Wagithomo</a></h1>
+            <div class="mb-4"><a href="" class="text-grey-darker">@Joe_kate</a></div>
+
+            <div class="mb-4">
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.By <a href=""> @kinya_elgrande</a>,
+                <a href="">@kamtu</a>, and <a href="">@john_doe</a>
+            </div>
+
+            <div class="mb-2"><i class="fa fa-link fa-lg text-grey-darker mr-1"><a href="" class="text-sm"> wagitomo.co.ke</a></i></div>
+            <div class="mb-4"><i class="fa fa-calendar fa-lg text-grey-darker mr-1"><a href="" class="text-grey-darker text-sm"> Joined on January 2020</a></i></div> 
+
+            <div class="mb-4">
+                <button class="bg-teal hover:bg-teal-dark text-white font-medium py-2 px-4 rounded-full">Tweet to Wagithomo</button>
+            </div>
+
+            <div class="mb-4"><i class="fa fa-user fa-lg text-grey-darker mr-1"><a href="" class="text-sm"> 65 Followers you know</a></i></div>
+
+            <div class="mb-4 ">
+                <a href=""><img src="/img/kinya.jpg" alt="" class="rounded-full h-12 w-12"></a>
+             <!--   <a href=""><img src="/img/kinya.png" alt="" class="inset-x-0 left-0 rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/lioness.jpg" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/kinya.jpg" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/manish.jpg" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/prince.jpg" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/kinya.jpg" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/kinya.jpg" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/myAvatar.png" alt="" class="rounded-full h-12 w-12"></a>
+                <a href=""><img src="/img/kinya.jpg" alt="" class="rounded-full h-12 w-12"></a>
+            -->  
+            </div>
+            <div class="mb-4">
+                <i class="fa fa-picture-o fa-lg text-grey-dark  mr-1"><a href="">  Photos and Videos</a></i>
+            </div>
+
         </div>
-        <div class="w-1/2"></div>
+        <div class="w-1/2 bg-white mb-4">
+            <div class="p-3 text-lg font-bold border-b border-solid border-grey-light">
+               <a href="" class="text-black mr-6">Tweets</a>
+               <a href="" class="mr-6">Tweets &amp; Replies</a>
+               <a href="">Media</a> 
+            </div>
+
+            <div class="flex border-b border-solid border-grey-light">
+                <div class="w-1/8 text-right pl-3 pt-3">
+                    <div> <i class="fa fa-thumb-tack text-teal mr-2"></i></div>
+                    <div><a href=""><img src="{{'/img/avataaars.png'}}" alt=""></a></div>
+                </div>
+
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="text-xs text-grey-dark">Pinned Tweet</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="font-bold"><a href="" class="text-black">Wagithomo</a></span>
+                            <span class="text-grey-dark">@Joe_kate</span>
+                            <span class="text-grey-dark">&middot;</span>
+                            <span class="text-grey-dark">15 January 2020</span>         
+                        </div>
+                        <div>
+                            <a href="" class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="mb-4">
+                            <p class="mb-6"> 🥳👳🏾‍♀ Wagithomo reloaded!!</p>
+                            <p class="mb-6"> Reure Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, odio!</p>
+                            <p class="mb-4"><a href="">elgrande.com/wagithomos/ja...</a></p>
+                            <p><a href=""><img src="/img/myAvatar.png" alt="" class="border border-solid border-grey-light rounded-sm"></a></p>
+                        </div>
+                    </div>
+
+                    <div class="pb-2">
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 26</a></span>
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-green"><i class="fa fa-retweet fa-lg mr-2"></i> 50</a></span>
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-red"><i class="fa fa-heart fa-lg mr-2"></i> 634</a></span>
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i> 26</a></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
         <div class="w-1/4"></div>
 
     </div>

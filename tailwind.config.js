@@ -3,8 +3,12 @@ module.exports = {
     extend: {
       colors: {
         white: '#ffffff',
-        blue: '#007ace',
+        blue: {
+          default:'#007ace',
+          light: '#6cb2eb',
+        },
         red: '#de3618',
+        green: '#38c172',
         grey: {
           light: '#dae1e7',
           lighter: '#f1f5f8',
@@ -45,6 +49,8 @@ module.exports = {
         '2/5': '40%',
         '1/2': '50%',
         '1/4': '25%',
+        '1/8': '12.5%',
+        '7/8': '87.5%',
       },
       margin: {
         'auto': 'auto',
@@ -77,6 +83,27 @@ module.exports = {
         '-20': '-5rem',
         '-24': '-6rem',
         '-32': '-8rem',
+      },
+      height: {
+        auto: 'auto',
+        px: '1px',
+        1: '0.25rem',
+        2: '0.5rem',
+        3: '0.75rem',
+        4: '1rem',
+        6: '1.5rem',
+        8: '2rem',
+        10: '2.5rem',
+        12: '3rem',
+        16: '4rem',
+        20: '5rem',
+        24: '6rem',
+        32: '8rem',
+        48: '12rem',
+        64: '16rem',
+        112: '28rem',
+        full: '100%',
+        screen: '100vh'
       },
       container: {
         padding: '10rem',
