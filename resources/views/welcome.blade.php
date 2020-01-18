@@ -170,13 +170,178 @@
                         <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i> 26</a></span>
                     </div>
                 </div>
+            </div>
+            <div class="flex border-b border-solid border-grey-light">
+                <div class="w-1/8 text-right pl-3 pt-3">
+                    <div> <i class="fa fa-thumb-tack text-teal mr-2"></i></div>
+                    <div><a href=""><img src="{{'/img/kinya.png'}}" alt=""></a></div>
+                </div>
 
+                <div class="w-7/8 p-3 pl-0">
+                    <div class="text-xs text-grey-dark">Retweeted</div>
+                    <div class="flex justify-between">
+                        <div>
+                            <span class="font-bold"><a href="" class="text-black">Mumbi_Francis</a></span>
+                            <span class="text-grey-dark">@kinya_elgrande</span>
+                            <span class="text-grey-dark">&middot;</span>
+                            <span class="text-grey-dark">18 January 2020</span>         
+                        </div>
+                        <div>
+                            <a href="" class="text-grey-dark hover:text-teal"><i class="fa fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="mb-4">
+                            <p class="mb-6"> Mzee Kinya🥳!!</p>
+                            <p class="mb-6"> Reure Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, odio!</p>
+                            <p class="mb-4"><a href="">elgrande.com/kinya/ja...</a></p>
+                            <p><a href=""><img src="/img/kinya.jpg" alt="" class="border border-solid border-grey-light rounded-sm"></a></p>
+                        </div>
+                    </div>
+
+                    <div class="pb-2">
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-blue-light"><i class="fa fa-comment fa-lg mr-2"></i> 100</a></span>
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-green"><i class="fa fa-retweet fa-lg mr-2"></i> 60</a></span>
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-red"><i class="fa fa-heart fa-lg mr-2"></i> 6348</a></span>
+                        <span class="mr-8"><a href="" class="text-grey-dark hover:no-underline hover:text-teal"><i class="fa fa-envelope fa-lg mr-2"></i> 620</a></span>
+                    </div>
+                </div>
             </div>
 
         </div>
-        <div class="w-1/4"></div>
+
+        <div class="w-full lg:w-1/4 pl-4">
+            <div class="bg-white p-3 mb-3">
+                <div>
+                    <span class="font-bold">Who to follow</span>
+                    <span>&middot;</span>
+                    <span><a href="#" class="text-xs">Refresh</a></span>
+                    <span>&middot;</span>
+                    <span><a href="#" class="text-xs">View All</a></span>
+                </div>
+
+                <div class="flex border-b border-solid border-grey-light">
+                    <div class="py-2">
+                        <a href="#"><img src="/img/ninja.jpeg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                    </div>
+                    <div class="pl-2 py-2 w-full">
+                        <div class="flex justify-between mb-1">
+                            <div>
+                                <a href="#" class="font-bold text-black">Ninja</a> <a href="#" class="text-grey-dark">@ninja</a>
+                            </div>
+
+                            <div>
+                                <a href="#" class="text-grey hover:text-grey-dark"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-transparent text-xs hover:bg-teal text-teal font-semibold hover:text-white py-2 px-6 border border-teal hover:border-transparent rounded-full">
+                            Follow
+                        </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex border-b border-solid border-grey-light">
+                    <div class="py-2">
+                        <a href="#"><img src="/img/ninja.jpeg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                    </div>
+                    <div class="pl-2 py-2 w-full">
+                        <div class="flex justify-between mb-1">
+                            <div>
+                                <a href="#" class="font-bold text-black">Ninja</a> <a href="#" class="text-grey-dark">@ninja</a>
+                            </div>
+
+                            <div>
+                                <a href="#" class="text-grey hover:text-grey-dark"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-transparent text-xs hover:bg-teal text-teal font-semibold hover:text-white py-2 px-6 border border-teal hover:border-transparent rounded-full">
+                            Follow
+                        </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex border-b border-solid border-grey-light">
+                    <div class="py-2">
+                        <a href="#"><img src="/img/ninja.jpeg" alt="follow1" class="rounded-full h-12 w-12"></a>
+                    </div>
+                    <div class="pl-2 py-2 w-full">
+                        <div class="flex justify-between mb-1">
+                            <div>
+                                <a href="#" class="font-bold text-black">Ninja</a> <a href="#" class="text-grey-dark">@ninja</a>
+                            </div>
+
+                            <div>
+                                <a href="#" class="text-grey hover:text-grey-dark"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-transparent text-xs hover:bg-teal text-teal font-semibold hover:text-white py-2 px-6 border border-teal hover:border-transparent rounded-full">
+                            Follow
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-2">
+                    <a href="#" class="text-xs">Show more</a>
+                </div>
+            </div>
+
+            <div class="bg-white p-3 mb-3">
+                <div class="mb-3">
+                    <span class="text-lg font-bold">Trends for you</span>
+                    <span>&middot;</span>
+                    <span><a href="#" class="text-xs">Change</a></span>
+                </div>
+
+                <div class="mb-3 leading-tight">
+                    <div><a href="#" class="font-bold">#BabuOwino</a></div>
+                    <div><a href="#" class="text-grey-dark text-xs">645K Tweets</a></div>
+                </div>
+
+                <div class="mb-3 leading-tight">
+                    <div><a href="#" class="font-bold">#DjEvolve</a></div>
+                    <div><a href="#" class="text-grey-dark text-xs">23K</a></div>
+                </div>
+
+                <div class="mb-3 leading-tight">
+                    <div><a href="#" class="font-bold">#GirlByeBye</a></div>
+                    <div><a href="#" class="text-grey-dark text-xs">21.7K Tweets</a></div>
+                </div>
+
+                <div class="mb-3 leading-tight">
+                    <div><a href="#" class="font-bold">#SomeHashTag</a></div>
+                    <div><a href="#" class="text-grey-dark text-xs">45K Tweets</a></div>
+                </div>
+
+                <div class="mb-3 leading-tight">
+                    <div><a href="#" class="font-bold">Something Trending</a></div>
+                    <div><a href="#" class="text-grey-dark text-xs">36K Tweets</a></div>
+                </div>
+
+                <div class="mb-3 leading-tight">
+                    <div><a href="#" class="font-bold">#Migunamiguna</a></div>
+                    <div><a href="#" class="text-grey-dark text-xs">100K Tweets</a></div>
+                </div>
+
+            </div>
+
+            <div class="mb-3 text-xs">
+                <span class="mr-2"><a href="#" class="text-grey-darker">&copy; 2018 Twitter</a></span>
+                <span class="mr-2"><a href="#" class="text-grey-darker">About</a></span>
+                <span class="mr-2"><a href="#" class="text-grey-darker">Help Center</a></span>
+                <span class="mr-2"><a href="#" class="text-grey-darker">Terms</a></span>
+                <span class="mr-2"><a href="#" class="text-grey-darker">Privacy policy</a></span>
+                <span class="mr-2"><a href="#" class="text-grey-darker">Cookies</a></span>
+                <span class="mr-2"><a href="#" class="text-grey-darker">Ads info</a></span>
+            </div>
+        </div>
 
     </div>
+
     
 </body>
 </html>
